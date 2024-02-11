@@ -1,0 +1,33 @@
+body{
+    background-color: #cae6f9;
+}
+.container{
+    background-color: #001e645e;
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+}
+.row{
+    display: flex;
+}
+button{
+    width: 50px;
+    height: 25px;
+}
+.darkBlue{
+    background-color: #135785;
+    color: #ffffff; /* ტექსტის ფერი */
+}
+.darkGrey{
+    background-color: #052235;
+    color: #ffffff;
+}
+.redish{
+    background-color: #d93819;
+    color: #ffffff;
+    width: 100px;
+}
+.blue{
+    background-color: #8ca6b7;
+    color: #ffffff;
+}
