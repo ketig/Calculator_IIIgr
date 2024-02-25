@@ -14,12 +14,12 @@
         <input type="text" id="displayResult" readonly>
 
         <div class="row">
-            <button class="darkBlue">CE</button>
-            <button class="darkBlue">C</button>
+            <button class="darkBlue" onclick="clearDisplay()">CE</button>
+            <button class="darkBlue" onclick="clearAll()">C</button>
             <button class="darkBlue">
                 <i class="fa-solid fa-delete-left"></i>
             </button>
-            <button class="darkBlue">
+            <button class="darkBlue" onclick="addToDisplay('/')">
                 <i class="fa-solid fa-divide"></i>
             </button>
             <button class="darkGrey">inv</button>
@@ -28,38 +28,38 @@
         </div>
 
         <div class="row">
-            <button class="blue" onclick="addToDisplay()">7</button>
-            <button class="blue" onclick="addToDisplay()">8</button>
-            <button class="blue">9</button>
-            <button class="darkBlue">X</button>
+            <button class="blue" onclick="addToDisplay('7')">7</button>
+            <button class="blue" onclick="addToDisplay('8')">8</button>
+            <button class="blue" onclick="addToDisplay('9')">9</button>
+            <button class="darkBlue" onclick="addToDisplay('*')">X</button>
             <button class="darkGrey">Cos</button>
             <button class="darkGrey">Tan</button>
-            <button class="darkGrey">%</button>
+            <button class="darkGrey" onclick="addToDisplay('%')">%</button>
         </div>
         <div class="row">
-            <button class="blue">4</button>
-            <button class="blue">5</button>
-            <button class="blue">6</button>
-            <button class="darkBlue">-</button>
+            <button class="blue" onclick="addToDisplay('4')">4</button>
+            <button class="blue" onclick="addToDisplay('5')">5</button>
+            <button class="blue" onclick="addToDisplay('6')">6</button>
+            <button class="darkBlue" onclick="addToDisplay('-')">-</button>
             <button class="darkGrey">ln</button>
             <button class="darkGrey">Log</button>
             <button class="darkGrey">!</button>
         </div>
         <div class="row">
-            <button class="blue">1</button>
-            <button class="blue">2</button>
-            <button class="blue">3</button>
-            <button class="darkBlue">+</button>
+            <button class="blue" onclick="addToDisplay('1')">1</button>
+            <button class="blue" onclick="addToDisplay('2')">2</button>
+            <button class="blue" onclick="addToDisplay('3')">3</button>
+            <button class="darkBlue" onclick="addToDisplay('+')">+</button>
             <button class="darkGrey">^</button>
             <button class="darkGrey">Pi</button>
             <button class="darkGrey">e</button>
         </div>
         <div class="row">
-            <button class="darkBlue">.</button>
-            <button class="blue">0</button>
-            <button class="redish">=</button>
-            <button class="darkGrey">(</button>
-            <button class="darkGrey">)</button>
+            <button class="darkBlue" onclick="addToDisplay('.')">.</button>
+            <button class="blue" onclick="addToDisplay('0')">0</button>
+            <button class="redish" onclick="">=</button>
+            <button class="darkGrey" onclick="addToDisplay('(')">(</button>
+            <button class="darkGrey" onclick="addToDisplay(')')">)</button>
             <button class="darkGrey">Sqrt</button>
         </div>
     </div>
